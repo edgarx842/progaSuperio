@@ -1,0 +1,33 @@
+ejercicio 1
+Para lograr esto, se asignan los siguientes permisos:
+
+- Propietario: rw- (6)
+
+- Grupo: r-- (4)
+
+- Otros: --- (0)
+ejercicio 2
+Para crear el script, se utilizó un editor de texto y se guardó como script.sh. 
+
+Se asignaron los permisos necesarios utilizando el comando chmod 711 script.sh, 
+
+donde:
+
+- El propietario tiene permisos de lectura, escritura y ejecución (7).
+
+- El grupo tiene permisos de ejecución (1).
+
+- Otros usuarios tienen solo permisos de ejecución (1).
+ejercicio 3
+Para proteger el archivo de configuración 'config.cfg', se han establecido
+chmos 600 cofig.cfg
+6-----> lectura y escritura 
+0----->no tiene acceso 
+0-----> no tiene acceso
+
+ejercicio 4
+en el archivo secreto.key se dio los permisos de chmod 400 secreto.key
+4 ------> permiso para el propietario 
+0-------> sin acceso grupos
+0-------> sin acceso otros
+
