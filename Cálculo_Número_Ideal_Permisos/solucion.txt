@@ -1,0 +1,87 @@
+Ejercicio 1
+📁 Archivo: registro.log
+🔹 Requisitos:
+
+Solo el dueño puede leer y escribir.
+Otros usuarios solo pueden leerlo.
+✅ Permiso esperado: rw----r-- 1 edgar edgar 0 mar  3 18:25 registro.log
+se aplico el permiso chmod 604 registro.log 
+Ejercicio 2
+📁 Archivo: ejecutable.sh
+🔹 Requisitos:
+
+Solo el dueño puede leer, escribir y ejecutar.
+Nadie más puede acceder.
+✅ Permiso esperado: -->rwx------ 1 edgar edgar 0 mar  3 18:36 ajecutable.sh
+se aplico los permisos chmod 700 ajecutable.sh
+
+Ejercicio 3
+📁 Archivo: publico.txt
+🔹 Requisitos:
+
+Todos pueden leer y escribir en él.
+✅ Permiso esperado: rw-rw-rw- 1 edgar edgar 0 mar  3 18:40 publico.txt
+se aaplico los permisos chmod 666 publico.txt 
+
+Ejercicio 4
+📁 Archivo: respaldo.db
+🔹 Requisitos:
+
+Solo el dueño puede leer y escribir.
+Nadie más debe tener acceso.
+✅ Permiso esperado: -rw------- 1 edgar edgar 0 mar  3 18:48 respaldo.db
+se aplico los permisos chmod 600 respaldo.db
+
+Ejercicio 5
+📁 Archivo: instrucciones.txt
+🔹 Requisitos:
+
+Todos pueden leerlo, pero solo el dueño puede modificarlo.
+✅ Permiso esperado: -rw-r--r-- 1 edgar edgar 0 mar  3 18:50 instrucciones.txt
+se aplico los permisos chmod 644 instrucciones.txt
+
+Ejercicio 6
+📁 Archivo: secreto.key
+🔹 Requisitos:
+
+Solo el dueño puede leerlo.
+Nadie más debe tener acceso.
+✅ Permiso esperado: r-------- 1 edgar edgar 0 mar  3 18:56 secreto.key
+se aplico los permisos chmod 400 secreto.key
+
+Ejercicio 7
+📁 Archivo: ejecutar_programa
+🔹 Requisitos:
+
+Solo el dueño puede ejecutar el archivo.
+Nadie más puede leer ni modificarlo.
+✅ Permiso esperado: -rwx------ 1 edgar edgar 0 mar  3 18:59 ejecutar_programa
+se aplico los permisos chmod 700 ejecutar_programa 
+
+Ejercicio 8
+📁 Archivo: compartido.doc
+🔹 Requisitos:
+
+Todos pueden leer y modificar el archivo.
+✅ Permiso esperado: rw-rw-rw- 1 edgar edgar 0 mar  3 19:02 compartido.doc
+se aplico los permisos chmos 666 compartido.doc
+
+Ejercicio 9
+📁 Archivo: solo_ejecucion
+🔹 Requisitos:
+
+Solo el dueño puede ejecutar el archivo.
+Todos los demás pueden ejecutarlo pero no modificarlo.
+✅ Permiso esperado: --x--x--x 1 edgar edgar 0 mar  3 19:08 solo_ejecucio
+se aplico los permisos chmod 111 solo_ejecucion
+
+Ejercicio 10
+📁 Archivo: reporte_admin.pdf
+🔹 Requisitos:
+
+Solo el dueño puede leer y escribir.
+El grupo del dueño puede leerlo.
+Otros usuarios no pueden acceder.
+✅ Permiso esperado:-rw-r----- 1 edgar edgar 0 mar  3 19:11 reporte_admin.pdf
+se aplico los permisos chmod 640 reporte_admin.pdf
+
